@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+
+    <script src="https://kit.fontawesome.com/2d749fcd9f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="job.css">
+
+    <title>News Latter</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Nav bare -->
+
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#home">About</a>
+            <a href="#about">Techonlog</a>
+            <a href="#contact">Sports</a>
+            <a href="#contact">News</a>
+
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <!-- Button trigger modal -->
+        <div class="frombutton">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Sing In
+            </button>
+        </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Sing In</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div>
+                               <div class="from2">
+                               <h4>Fill up This From</h4>
+                                <form action="/action_page.php">
+                                    <label for="fname">Email Address</label><br>
+                                    <input type="text" id="fname" name="firstname" placeholder="Your Email Adderss.."><br><br>
+
+                                    <label for="lname">Password</label><br>
+                                    <input type="text" id="lname" name="lastname" placeholder="Password.."><br><br>
+
+                                    <label for="country">Country</label>
+                                    <select id="country" name="country">
+                                        <option value="australia">Australia</option>
+                                        <option value="canada">Canada</option>
+                                        <option value="usa">USA</option>
+                                    </select>
+                                    <input type="submit" value="Submit">
+
+                                </form>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Sing UP</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <hr>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>First slide label</h4>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h4>Third slide label</h4>
+                    <p>Some representative placeholder content for the third slide.</p>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image/3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    
+        <!--news card-->
+        <div class="row">
+            <div class="heder">
+                <h1>Aenean ligula mol stie viverra quae melesua porta</h1>
+                <p>Vitae adipiscing turpis. Aenean ligula nibh, molestie id
+                    viverra dapibus at.</p>
+            </div>
+            <div class="col-1"></div>
+
+            <div class="col-3">
+                <div class="card" style="width:20rem;">
+                    <img class="card-img-top" src="image/image1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Aenean ligula mol stie viverra</h4>
+                        <p class="card-text">Vitae adipiscing turpis. Aenean ligula nibh,
+                            molestie id viverra a, dapibus at dolor. In iaculis viverra neque,
+                            ac ele molestie id viverra aifend ante lobortis id. In viverra ipsum
+                            stie id viverra a.Some quick example text to build on the card title
+                            and make up the bulk of the card's content...<br> <a href="#">read mores</a></p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="image/image22.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Vitae adipiscing turpis aenean</h4>
+                        <p class="card-text">Aenean ligula nibh in, molestie id viverra a,
+                            dapibus at dolor. Aenean ligula. <a href="#"> <br>read more</a></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 23rem;">
+                    <img class="card-img-top" src="image/image2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Suspen disse a pellen tesque dui</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet enim. Etiam
+                            ullamcorperlentesque dui non felis. Pellentesque et lacus pretium tincidunt.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                            <br>
+                            <a cl href="#">read mores</a></p>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+
+            </div><br><br>
+            <h1></h1>
+
+            <!--2nd stape-->
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-3">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="image/image4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Vestibulum commodo volutpat laoreet</h4>
+                            <p class="card-text">Nunc felis. Curabitur ac ipsum. Pellentesque
+                                nibh ultricies est. Maecenas consequat, augue a venenatis risus.
+                                Ut id mollis vel, lacinia quam. Praesent blandit malesuada.
+                                Suspendisse commodo.... </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="image/image5.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Vitae adipiscing turpis aenean</h4>
+                            <p class="card-text">Aenean ligula nibh in, molestie id viverra a,
+                                dapibus at dolor. Aenean ligula...</p><br>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 23rem;">
+                        <img class="card-img-top" src="image/image6.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Proin dui sodales imperdiet sit sapien fames
+                                ac luctus</h5>
+                            <p class="card-text">Pellentesque et lacus pretium tincidunt.
+                                Pellentesque at metus. Donec nisl a nisl. Vestibulum ante
+                                ipsum primis in nulla orci ut leo nec cursus consequat,
+                                orci ut...
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                </div><br>
+            </div>
+            <!--3nd stape-->
+            <h1 class="h1">News Lattler </h1><br>
+            <hr>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-3">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="image/image7.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Vestibulum commodo volutpat laoreet</h4>
+                            <p class="card-text">Nunc felis. Curabitur ac ipsum. Pellentesque
+                                nibh ultricies est. Maecenas consequat, augue a venenatis risus.
+                                Ut id mollis vel, lacinia quam. Praesent blandit malesuada.
+                                Suspendisse commodo.... </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="card" style="width: 20rem;">
+                        <img class="card-img-top" src="image/image8.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Vitae adipiscing turpis aenean</h4>
+                            <p class="card-text">Aenean ligula nibh in, molestie id viverra a,
+                                dapibus at dolor. Aenean ligula...</p><br>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 23rem;">
+                        <img class="card-img-top" src="image/image9.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Proin dui sodales imperdiet sit sapien fames
+                                ac luctus</h5>
+                            <p class="card-text">Pellentesque et lacus pretium tincidunt.
+                                Pellentesque at metus. Donec nisl a nisl. Vestibulum ante
+                                ipsum primis in nulla orci ut leo nec cursus consequat,
+                                orci ut
+
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+
+                </div><br>
+
+            </div>
+            <div clas="hr">
+                <hr>
+            </div><br>
+            <!---2nd stage-->
+
+            <div class="row">
+                <div class="col-4">
+                    <h2>Eiusmod tempor</h2>
+                </div>
+                <div class="col-8">
+                    <h2>Vivamus purus neque</h2>
+                </div><br><br>
+            </div><br> <br>
+        </div>
+
+        <div class="row">
+            <div class="col-6 col-md-4">
+                <h4 class="fusc">Fusce faucibus, sapien ac posuere sodales</h4><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, seddo eiusmod tempor incididunt. <br><br>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolptatem.</p><br>
+                <button>Read more</button>
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="image/home_blogger2_staff1.jpg" alt="#" class="bloger">
+                <div class="left">
+                    <h5>Sara Wright</h5>
+                    <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit.</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="image/home_blogger2_staff2.jpg" alt="#" class="bloger">
+                <div class="left">
+                    <h5>Kevin Perry</h5>
+                    <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit.</p>
+                </div>
+
+            </div>
+        </div>
+        <!--news-->
+        <div class="news">
+            <h1>NEWS</h1>
+        </div>
+        <div class="border1"></div><br><br>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="image/home_blogger2_news1.jpg" alt="">
+                <p>April 29,2022</p>
+                <h6>Proin Sed quam hendrerit nonummy</h6>
+            </div>
+            <div class="col-4">
+                <img src="image/home_blogger2_news2.jpg" alt="">
+                <p>April 28,2012</p>
+                <h6>Aliquam utricies pretium</h6>
+            </div>
+            <div class="col-4">
+                <img src="image/home_blogger2_news3.jpg" alt="">
+                <p>April 29,2014</p>
+                <h6>Nullam nec urna in sem lacinia malesuada sed mollis totor</h6>
+            </div>
+        </div><br><br>
+        <!--Fotter-->
+        <div class="fotterhade">
+            <h4>Vestibulum commodo <spane style="color:orange" ;>Volutpat Convallis </spane> ac laoreet turpis faucibus</h4>
+        </div>
+        <section class="foter">
+
+            <div class="row">
+
+                <div class="col-3" style="margin-left:20px;">
+                    <h2>Useful links</h2><br>
+                    <div class="log">
+                        <h6>Log in</h6>
+                        <h6>Entries feed</h6>
+                        <h6>Comments feed</h6>
+                        <h6>WordPress.org</h6>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <h2>Latest comments</h2><br>
+                    <p> Admin commented on Aenean ligula mol stie viverra quae melesua porta</p>
+                    <p>Admin commented on Aenean ligula mol stie viverra quae melesua porta</p>
+                </div>
+                <div class="col-4">
+                    <h2>About us</h2><br>
+                    <p> Nulla risus ante, luctus et placerat quis, efficitur nec nisl. Cras iaculis tristique.</p>
+                    <p>Etiam at nibh turpis! Vestibulum mattis risus eget dolor finibus, ut luctus est congue. Ut sit amet interdum erat; quis malesuada lacus. Sed mauris diam, sodales a imperdiet ut.</p>
+                </div>
+            </div>
+            <div class="last">
+                <div class="col-2">
+                    <h2>Tags</h2><br>
+
+                    <div class="icone">
+                        <i class="fa-brands fa-skype">skype</i>
+                        <i class="fa-brands fa-youtube">youtube</i>
+                        <i class="fa-brands fa-facebook">facebook</i>
+                        <i class="fa-brands fa-facebook-messenger">messenger</i>
+                    </div>
+                </div>
+            </div><br><br><br>
+            <hr>
+            <div class="stapelast">
+                <h6>© 2022 <spane style="color:orange" ;>MEHEDI HASAN </spane> | All Rights Reserved | Powered by <spane style="color:orange" ;>Mehedi Hasan</spane>
+                </h6>
+            </div>
+        </section>
+        <br>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
